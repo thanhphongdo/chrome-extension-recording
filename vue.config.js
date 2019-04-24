@@ -14,6 +14,11 @@ chromeName.forEach((name) => {
   };
 });
 
+// pagesObj.content_script = {
+//   entry: `src/content_script/index.ts`,
+//   filename: 'content_script.js'
+// }
+
 const plugins = process.env.NODE_ENV === 'production'
   ? [
     {
